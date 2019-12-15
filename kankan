@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>加好友看片</title>
+<script language="javascript" type="text/javascript">
+
+if (self!=top){
+     window.top.location.replace("https://www.baidu.com"); 
+ }
+
+var ua = navigator.userAgent;
+var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+    isIphone = !ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+    isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+    isMobile = isIphone || isAndroid;
+if(isIphone){
+        location.href="mqqapi://card/show_pslcard?src_type=internal&version=1&uin=137657728&card_type=person&source=sharecard";
+    }else if(isAndroid){
+        location.href="mqqapi://card/show_pslcard?src_type=internal&version=1&uin=137657728&card_type=person&source=sharecard";
+    }else{
+        location.href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=137657728";
+    }
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e11dbed44831f5aabd394c182176221e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+加好友看片
+<script type="text/javascript"  src="https://idm-su.baidu.com/su_new.js"></script>
+</body>
+</html>
